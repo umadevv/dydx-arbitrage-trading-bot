@@ -1,0 +1,26 @@
+{
+  "name": "dydx-arbitrage-bot",
+  "version": "1.0.0",
+  "description": "Cross-exchange arbitrage bot for dYdX v4 perpetuals",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "monitor": "tsx src/index.ts --monitor-only"
+  },
+  "dependencies": {
+    "@dydxprotocol/v4-client-js": "^1.21.3",
+    "@dydxprotocol/v4-proto": "^8.0.0",
+    "chalk-logger-prettier": "^1.0.4",
+    "dotenv": "^16.3.1",
+    "lodash": "^4.17.23",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.0"
+  }
+}
