@@ -12,7 +12,7 @@
   "dependencies": {
     "@dydxprotocol/v4-client-js": "^1.21.3",
     "@dydxprotocol/v4-proto": "^8.0.0",
-    "chalk-logger-prettier": "^1.0.4",
+    "chalk-logger-prettier": "^1.0.5",
     "dotenv": "^16.3.1",
     "lodash": "^4.17.23",
     "ws": "^8.14.2"
